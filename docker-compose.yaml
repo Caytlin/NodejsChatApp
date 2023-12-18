@@ -1,7 +1,7 @@
 version: '2.4'
 services:
   apache:
-    image: caytlin/nodejschatapp
+    image: caytlin/nodejschatapp:latest
     ports:
     - '80:80'
     volumes:
